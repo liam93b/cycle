@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace data_reader
 {
     public partial class Form1 : Form
     {
@@ -31,7 +31,7 @@ namespace WindowsFormsApplication1
         }
 
         SessionData     session = new SessionData();
-        string          filepath    =   @"F:\ComputerCycle\cycle.hrm";     // The data location 
+        string          filepath    =   @"F:\CycleLiam/cycle.hrm";     // The data location 
         string[]        data;
         List<DataEntry> sessionData = new List<DataEntry>();
 
@@ -46,7 +46,7 @@ namespace WindowsFormsApplication1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Load from txt file
+            // Load from txt file cycle.hrm
             data = loadData();
 
             // If has appropriate size check data 
@@ -60,8 +60,8 @@ namespace WindowsFormsApplication1
             }
             else
             {
-                //Display error message here donny 
-                Console.WriteLine("Nahh the size aint right b, aint no lines");
+                //Errors displayed
+                Console.WriteLine("Not correct size");
             }
         }
 
@@ -197,10 +197,13 @@ namespace WindowsFormsApplication1
 
         private void dataView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-                    
+
         }
 
-       
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
 
     }
     
@@ -216,7 +219,7 @@ namespace WindowsFormsApplication1
 
     public class DataEntry
     {
-        int heartRate;  //bpm
+        int hartrate;  //bpm
         int speed;      //mmentary speed in Xtrainer units (km/h or mph = X/128)
         int cadence;    //rpm
         int ascent;     //Lap ascent value from XTr+ 10m / 10ft
@@ -225,9 +228,9 @@ namespace WindowsFormsApplication1
 
 
         // Set an entry 
-        public void setEntry(int heartRate, int speed, int cadence, int ascent, int power, int powerBal)
+        public void setEntry(int hartrate, int speed, int cadence, int ascent, int power, int powerBal)
         {
-            this.heartRate  =   heartRate;
+            this.hartrate  =   hartrate;
             this.speed      =   speed;
             this.cadence    =   cadence;
             this.ascent     =   ascent;
@@ -247,7 +250,7 @@ namespace WindowsFormsApplication1
         #region Get Individual Data Calls -----
         public int getHeartRate()
         {
-            return heartRate;
+            return hartrate;
         }
         public int getSpeed()
         {
@@ -346,26 +349,5 @@ namespace WindowsFormsApplication1
         }
 
         #endregion   
- 
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void startTime_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }
