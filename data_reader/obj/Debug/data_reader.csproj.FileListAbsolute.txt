@@ -1,0 +1,27 @@
+F:\Year 3\Software\Semester2\data_reader\data_reader\bin\Debug\data_reader.exe.config
+F:\Year 3\Software\Semester2\data_reader\data_reader\obj\Debug\data_reader.csprojResolveAssemblyReference.cache
+F:\Year 3\Software\Semester2\data_reader\data_reader\obj\Debug\data_reader.Form1.resources
+F:\Year 3\Software\Semester2\data_reader\data_reader\obj\Debug\data_reader.Properties.Resources.resources
+F:\Year 3\Software\Semester2\data_reader\data_reader\obj\Debug\data_reader.csproj.GenerateResource.Cache
+F:\Year 3\Software\Semester2\data_reader\data_reader\bin\Debug\data_reader.exe
+F:\Year 3\Software\Semester2\data_reader\data_reader\bin\Debug\data_reader.pdb
+F:\Year 3\Software\Semester2\data_reader\data_reader\obj\Debug\data_reader.exe
+F:\Year 3\Software\Semester2\data_reader\data_reader\obj\Debug\data_reader.pdb
+C:\Users\c3412132\Desktop\CycleLiam\data_reader\bin\Debug\data_reader.exe.config
+C:\Users\c3412132\Desktop\CycleLiam\data_reader\obj\Debug\data_reader.exe
+C:\Users\c3412132\Desktop\CycleLiam\data_reader\obj\Debug\data_reader.pdb
+C:\Users\c3412132\Desktop\CycleLiam\data_reader\bin\Debug\data_reader.exe
+C:\Users\c3412132\Desktop\CycleLiam\data_reader\bin\Debug\data_reader.pdb
+C:\Users\c3412132\Desktop\CycleLiam\data_reader\obj\Debug\data_reader.csprojResolveAssemblyReference.cache
+C:\Users\c3412132\Desktop\CycleLiam\data_reader\obj\Debug\data_reader.Form1.resources
+C:\Users\c3412132\Desktop\CycleLiam\data_reader\obj\Debug\data_reader.Properties.Resources.resources
+C:\Users\c3412132\Desktop\CycleLiam\data_reader\obj\Debug\data_reader.csproj.GenerateResource.Cache
+F:\CycleLiam\data_reader\bin\Debug\data_reader.exe.config
+F:\CycleLiam\data_reader\obj\Debug\data_reader.exe
+F:\CycleLiam\data_reader\obj\Debug\data_reader.pdb
+F:\CycleLiam\data_reader\bin\Debug\data_reader.exe
+F:\CycleLiam\data_reader\bin\Debug\data_reader.pdb
+F:\CycleLiam\data_reader\obj\Debug\data_reader.csprojResolveAssemblyReference.cache
+F:\CycleLiam\data_reader\obj\Debug\data_reader.Form1.resources
+F:\CycleLiam\data_reader\obj\Debug\data_reader.Properties.Resources.resources
+F:\CycleLiam\data_reader\obj\Debug\data_reader.csproj.GenerateResource.Cache
